@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /*
 1. Построить три класса (базовый и 2 потомка), описывающих некоторых работников с почасовой оплатой (один из потомков - Freelancer) и фиксированной оплатой (второй потомок -Worker).
 а) Описать в базовом классе абстрактный метод для расчёта среднемесячной заработной платы.
@@ -16,9 +18,11 @@ public class Program {
             new Freelancer("Dmitriy", "IT", 500)
             };
 
+
         for (Emploee emploee: emploees) {
             System.out.println(emploee);
         }
-            }
         }
+            }
+
 

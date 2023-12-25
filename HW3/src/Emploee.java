@@ -34,4 +34,12 @@ public abstract class Emploee {
      * абстрактный метод для расчёта среднемесячной заработной платы
      */
     abstract double calcAverMonthSalary();
+
+    @Override
+    public String toString() {
+        return "Emploee{" +
+                "name='" + name + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                '}';
+    }
 }
