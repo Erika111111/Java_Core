@@ -12,4 +12,13 @@ public class Freelancer extends Emploee{
         return  20.8 * 8 * hourlyPay;
 
     }
+
+    @Override
+    public String toString() {
+        return "Freelancer{" +
+                "hourlyPay=" + hourlyPay +
+                ", name='" + name + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                '}';
+    }
 }

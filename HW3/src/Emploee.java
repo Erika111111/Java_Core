@@ -35,11 +35,5 @@ public abstract class Emploee {
      */
     abstract double calcAverMonthSalary();
 
-    @Override
-    public String toString() {
-        return "Emploee{" +
-                "name='" + name + '\'' +
-                ", jobTitle='" + jobTitle + '\'' +
-                '}';
-    }
+
 }

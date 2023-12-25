@@ -13,5 +13,14 @@ public class Worker extends Emploee{
     double calcAverMonthSalary() {
         return fixMonthSalary;
     }
+
+    @Override
+    public String toString() {
+        return "Worker{" +
+                "fixMonthSalary=" + fixMonthSalary +
+                ", name='" + name + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                '}';
+    }
 }
 
